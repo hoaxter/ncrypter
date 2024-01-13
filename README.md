@@ -18,7 +18,7 @@ Some fucntion of this tool are:
 git clone https://github.com/hoaxter/ncrypter
 ```
 ```
-pip install -r Requirements.txt
+pip install -r requirements.txt
 ```
 ```
 python ncrypter.py
