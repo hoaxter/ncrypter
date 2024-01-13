@@ -8,9 +8,18 @@ It also provide frequncy attack to break the encrypted message cipher.
 # Functions 
 
 Some fucntion of this tool are:
-```
+
 * Encryption Of Messages
 * Decryption Of Messages
 * Frequency Attack
 
+# Usage
+```
+git clone https://github.com/hoaxter/ncrypter
+```
+```
+pip install requirements.txt
+```
+```
+python ncrypter.py
 ```
