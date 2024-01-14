@@ -1,6 +1,6 @@
 # About
 
-![tink_logo_coloronly](https://github.com/hoaxter/ncrypter/assets/141468297/b7a839d2-2089-4cdf-a962-7eedf1238bfd)
+![tink_logo_coloronly (1)](https://github.com/hoaxter/ncrypter/assets/141468297/13f97498-782b-42d1-9682-fc114f1b74a5)
 
 This tool uses additive cipher for encryption and decryption you need to provide a key for both encryption and decryption process.
 It also provide frequncy attack to break the encrypted message cipher.
