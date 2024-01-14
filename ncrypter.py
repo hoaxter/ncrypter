@@ -88,7 +88,7 @@ class Ncrypter:
 
         alpha = "abcdefghijklmnopqrstuvwxyz"
 
-        msg = input(f"\n{blue}[+] Enter the message to be Decrypted: ")
+        msg = input(f"\n{blue}[+] Enter the message to be Decrypted: ").lower()
 
         self.checker(msg)
 
