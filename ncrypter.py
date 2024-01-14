@@ -52,20 +52,12 @@ class Ncrypter:
             if i in special:
                 print(f"{red}[-] Only take alphabet as input \n")
                 self.__init__()
-            
-            elif i.isupper():
-                print(f"{red}[-] Capital Alphabets are not allowed! \n")
-                self.__init__()
 
     def encrypt(self):
 
         alpha = "abcdefghijklmnopqrstuvwxyz"
             
-        msg = input(f"{blue}\n[+] Enter the message to be Encrypted: ")
-
-        if msg.isupper():
-            print(f"{red}[-] Capital Alphabets are not allowed! \n")
-            self.__init__()
+        msg = input(f"{blue}\n[+] Enter the message to be Encrypted: ").lower()
 
         self.checker(msg)
 
